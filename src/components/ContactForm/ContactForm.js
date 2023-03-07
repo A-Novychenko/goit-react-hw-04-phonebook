@@ -74,8 +74,6 @@ export const ContactForm = ({ contacts, onChange }) => {
 ContactForm.propTypes = {
   contacts: PropTypes.arrayOf(
     shape({
-      id: PropTypes.string.isRequired,
-      number: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
     })
   ).isRequired,
